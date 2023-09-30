@@ -41,25 +41,21 @@ IP обязательно через InetAdress.getByName.
 ЗАПУСКАЕМЫЙ КЛИЕНТ БЕЗ INTELLIJ IDEA
 
 1.	Для начала надо сделать jar file. 
-File -> Project Structure -> Project Settings -> Artifacts -> Click green plus sign -> Jar -> From modules with dependencies -> {
-Module: 3.JavaMultiThreading
-Main class: Project tab -> JavaRushTasks -> 3.JavaMultiThreading -> src -> com.javarush.task -> task30 -> task3008 -> client -> ClientGuiController -> OK
-} -> X Extract to the target Jar -> OK -> Apply/OK
 
 2.	Теперь надо сделать билд. 
 Build -> Build Artifact -> Build
 
-3.	Ваш jar файл будет расположен тут: …\project\out\artifacts\ 
-(В моем случае полный адрес: D:\JetBrains\Projects\project\out\artifacts\)
+3.	Ваш jar файл будет расположен тут: …\LowBudgetChat\out\artifacts\ 
+(В моем случае полный адрес: C:\JetBrains\Projects\LowBudgetChat\out\artifacts\)
 
 4.	Заходим в папку, где располагается ваш jar файл. Можно переименовать его, к примеру в Messenger.jar 
 
-5.	Создаем тут же текстовый файл. Называем его, к примеру, messenger.txt. Открываем и делаем запись в одну строку: start javaw -jar Messenger.jar
+5.	Создаем тут же текстовый файл. Называем его, к примеру, Chat.txt. Открываем и делаем запись в одну строку: start javaw -jar Chat.jar
 
-* Messenger.jar – это имя вашего jar файла.
+* Chat.jar – это имя вашего jar файла.
 
 6.	Сохраняем и закрываем файл. 
 
-7.	Переименовываем txt файл в messenger.bat. Важно, чтобы изменилось расширение файла с txt на bat. Если у вас 11 винда, то вам надо в этой папке нажать view -> show -> file view extensions. И после этого изменить расширение файла с txt на bat. 
+7.	Переименовываем txt файл в Chat.bat. Важно, чтобы изменилось расширение файла с txt на bat. Если у вас 11 винда, то вам надо в этой папке нажать view -> show -> file view extensions. И после этого изменить расширение файла с txt на bat. 
 
 8.	Готово. Запускайте bat файл. Теперь вы можете переместить файлы jar + bat куда угодно и запускать без IDEA. 
