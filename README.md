@@ -49,8 +49,8 @@ Main class: Project tab -> JavaRushTasks -> 3.JavaMultiThreading -> src -> com.j
 2.	Теперь надо сделать билд. 
 Build -> Build Artifact -> Build
 
-3.	Ваш jar файл будет расположен тут: …\JavaRushTasks\out\artifacts\ 
-(В моем случае полный адрес: D:\JetBrains\Projects\JavaRushTasks\out\artifacts\)
+3.	Ваш jar файл будет расположен тут: …\project\out\artifacts\ 
+(В моем случае полный адрес: D:\JetBrains\Projects\project\out\artifacts\)
 
 4.	Заходим в папку, где располагается ваш jar файл. Можно переименовать его, к примеру в Messenger.jar 
 
