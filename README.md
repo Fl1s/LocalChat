@@ -48,7 +48,7 @@ Build -> Build Artifact -> Build
 3.	Ваш jar файл будет расположен тут: …\LowBudgetChat\out\artifacts\ 
 (В моем случае полный адрес: C:\JetBrains\Projects\LowBudgetChat\out\artifacts\)
 
-4.	Заходим в папку, где располагается ваш jar файл. Можно переименовать его, к примеру в Messenger.jar 
+4.	Заходим в папку, где располагается ваш jar файл. Можно переименовать его, к примеру в Chat.jar 
 
 5.	Создаем тут же текстовый файл. Называем его, к примеру, Chat.txt. Открываем и делаем запись в одну строку: start javaw -jar Chat.jar
 
